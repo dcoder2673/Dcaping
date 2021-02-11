@@ -35,7 +35,7 @@ function news($uid,$n){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
 				$headers[] = "Cookie: u=$uid;n=$n";
-				$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8";
+				$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8/261";
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
 	return $result;
@@ -48,7 +48,7 @@ function video($uid,$n){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
 					$headers[] = "Cookie: u=$uid;n=$n";
-					$headers[] ="User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8";
+					$headers[] ="User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8/261";
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
@@ -62,7 +62,7 @@ function share($uid,$n){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
 					$headers[] = "Cookie: u=$uid;n=$n";
-					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8";
+					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8/261";
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
@@ -75,7 +75,7 @@ function code($uid,$n){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 				$headers = array();
 					$headers[] = "Cookie: u=$uid;n=$n";
-					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8";
+					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8/261";
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
@@ -88,7 +88,7 @@ function klik($uid,$n){
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 			$headers = array();
 					$headers[] = "Cookie: u=$uid;n=$n";
-					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8";
+					$headers[] = "User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36;CapingNews/5.3.8/261";
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		$result = curl_exec($ch);
